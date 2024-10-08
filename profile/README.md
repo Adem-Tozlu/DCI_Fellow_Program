@@ -1,5 +1,3 @@
-# DCI Fellow Programm Plattform
-
 ![image](https://github.com/user-attachments/assets/f104bfe7-05e4-410f-98dc-cd1bb4a0e8bd)
 
 ## Projektbeschreibung
