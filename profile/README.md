@@ -1,5 +1,7 @@
 # DCI Fellow Programm Plattform
 
+![image](https://github.com/user-attachments/assets/f104bfe7-05e4-410f-98dc-cd1bb4a0e8bd)
+
 ## Projektbeschreibung
 
 Das DCI Fellow Programm zielt darauf ab, eine Plattform zu entwickeln, die Junior Fellows und Senior Fellows miteinander verbindet und es ihnen ermöglicht, die benötigte Unterstützung leicht zu finden. Diese Plattform wird die Zusammenarbeit und den Wissensaustausch zwischen den Teilnehmern fördern und ihnen helfen, den maximalen Nutzen aus ihren Bildungsprozessen zu ziehen.
