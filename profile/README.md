@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f104bfe7-05e4-410f-98dc-cd1bb4a0e8bd)
+![{FA5740D4-F236-4523-830A-7D4265AA3572}](https://github.com/user-attachments/assets/6374884a-1131-4046-9433-4708af2b423f)
 
 ## Projektbeschreibung
 
