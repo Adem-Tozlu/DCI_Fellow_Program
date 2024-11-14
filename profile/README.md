@@ -76,7 +76,7 @@ Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, u
 1. **Repository klonen**:
 
    ```bash
-   git clone https://github.com/mkamburdev/DCI-Fellow-Program.git
+   git clone git@github.com:DCI-Fellow-Program/DCI-Fellow-Program.git
    cd DCI-Fellow-Program
    ```
 
