@@ -1,21 +1,138 @@
-![{FA5740D4-F236-4523-830A-7D4265AA3572}](https://github.com/user-attachments/assets/6374884a-1131-4046-9433-4708af2b423f)
+# DCI Fellow Program Dokumentation
 
-## Projektbeschreibung
+![DCI Fellow Program Banner](https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/Fellow.png?token=GHSAT0AAAAAACZ4FGRGWGDD2W3FECOIQMDIZZV3EOA)
 
-Das DCI Fellow Programm zielt darauf ab, eine Plattform zu entwickeln, die Junior Fellows und Senior Fellows miteinander verbindet und es ihnen ermöglicht, die benötigte Unterstützung leicht zu finden. Diese Plattform wird die Zusammenarbeit und den Wissensaustausch zwischen den Teilnehmern fördern und ihnen helfen, den maximalen Nutzen aus ihren Bildungsprozessen zu ziehen.
+## Überblick
 
-## Verwendete Technologien:
+Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, um die Aktivitäten des Digital Career Institute zu verwalten und zu erleichtern. Dieses Projekt nutzt einen modernen Technologie-Stack, einschließlich eines React-Frontends mit Vite und Tailwind CSS sowie eines Express-Backends mit MongoDB. Die Anwendung unterstützt die Benutzerauthentifizierung, das Benutzermanagement, das Ticketmanagement und bietet ein responsives Design, das für verschiedene Geräte geeignet ist.
 
-Front-End: ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23323330.svg?style=flat&logo=vite&logoColor=%23F7DF1E) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+## Screenshots
 
-Back-End: ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/desktop.png?token=GHSAT0AAAAAACZ4FGRHQGXTXJX52QSLH3BSZZV3EZA" alt="Screenshot 1" width="800"/><br>
+  <img src="https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/fellow-tablet.gif?token=GHSAT0AAAAAACZ4FGRGSGFKXHCH5SRLYKLEZZV3FBA" alt="Screenshot 2" width="400"/><br>
+  <img src="https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/fellow-mobile.gif?token=GHSAT0AAAAAACZ4FGRH6XLI4RV6EB6SNJUEZZV3FGQ" alt="Screenshot 3" width="300"/>
+</div>
 
-## Projektziele
+## Funktionen
 
-* Einfache Zuordnung: Bereitstellung eines Zuordnungsmechanismus, damit Junior und Senior Fellows die benötigte Unterstützung leicht finden können.
-* Kommunikation und Zusammenarbeit: Förderung des Wissensaustauschs und der Zusammenarbeit zwischen den Teilnehmern.
-* Kategoriebildung: Erstellung von Kategorien basierend auf verschiedenen Sprachen und Fachgebieten, um Benutzern die passenden Zuordnungen zu erleichtern.
+### Ticketmanagement
 
-## Fazit
+- **Tickets erstellen**: Benutzer können neue Tickets erstellen, indem sie den Titel, die Sprache, den Kurs und die Beschreibung angeben.
+- **Tickets anzeigen**: Benutzer können Details einzelner Tickets anzeigen.
+- **Tickets filtern und suchen**: Benutzer können Tickets nach Sprache, Kurs und Position filtern und nach Schlüsselwörtern suchen.
+- **Paginierung**: Tickets werden zur besseren Benutzererfahrung paginiert.
+- **Tickets löschen**: Administratoren können einzelne oder mehrere Tickets löschen.
 
-Die Plattform wird den Teilnehmern des DCI Fellow Programms großen Nutzen bringen, die Lernprozesse unterstützen und eine starke Interaktion innerhalb der Gemeinschaft fördern. Während wir in der Entwicklungsphase sind, freuen wir uns auf die Herausforderungen und Erkenntnisse, die diesen Prozess begleiten werden.
+### Benutzermanagement
+
+- **CRUD-Operationen**: Administratoren können Benutzerkonten erstellen, lesen, aktualisieren und löschen.
+- **Profilverwaltung**: Benutzer können ihre Profile anzeigen und bearbeiten.
+- **Suchen und Filtern**: Benutzer können andere Benutzer nach E-Mail suchen und filtern.
+
+### Benutzerauthentifizierung und -autorisierung
+
+- **Login und Registrierung**: Benutzer können sich registrieren und in die Anwendung einloggen.
+- **JWT-Authentifizierung**: Sichere Authentifizierung mit JSON Web Tokens (JWT).
+- **Rollenbasierte Zugriffskontrolle**: Verschiedene Zugriffsebenen für reguläre Benutzer und Administratoren.
+
+### Dashboard
+
+- **Admin-Dashboard**: Bietet einen Überblick über Tickets und Benutzeraktivitäten.
+- **Sortieren und Filtern**: Tickets können nach Datum sortiert und nach verschiedenen Kriterien gefiltert werden.
+
+### Responsives Design
+
+- **Mobilfreundlich**: Die Anwendung ist so gestaltet, dass sie responsiv ist und gut auf mobilen Geräten funktioniert.
+- **Dynamische Layouts**: Layouts passen sich basierend auf der Bildschirmgröße an, um eine optimale Benutzererfahrung zu bieten.
+
+## Verwendete Technologien
+
+### Frontend
+
+- **React**: Eine JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen.
+- **Vite**: Ein Build-Tool, das eine schnelle Entwicklungsumgebung bietet.
+- **Tailwind CSS**: Ein Utility-First CSS-Framework für die schnelle UI-Entwicklung.
+- **React Router**: Zum Handling von Routen in der Anwendung.
+- **Redux**: Für das Zustandsmanagement.
+- **React Icons**: Zum Einbinden von Icons in die Anwendung.
+
+### Backend
+
+- **Express**: Ein Webanwendungs-Framework für Node.js.
+- **MongoDB**: Eine NoSQL-Datenbank zum Speichern von Anwendungsdaten.
+- **Mongoose**: Eine ODM (Object Data Modeling) Bibliothek für MongoDB und Node.js.
+- **JWT**: Für sichere Authentifizierung.
+
+## Erste Schritte
+
+### Voraussetzungen
+
+- **Node.js**: Stellen Sie sicher, dass Node.js auf Ihrem Rechner installiert ist.
+- **npm oder yarn**: Paketmanager zum Installieren von Abhängigkeiten.
+
+### Installation
+
+1. **Repository klonen**:
+
+   ```bash
+   git clone https://github.com/mkamburdev/DCI-Fellow-Program.git
+   cd DCI-Fellow-Program
+   ```
+
+2. **Abhängigkeiten installieren**:
+
+   ```bash
+   cd frontend
+   npm install
+   cd ../backend
+   npm install
+   ```
+
+3. **Umgebungsvariablen einrichten**:
+   - Erstellen Sie eine `.env`-Datei im `backend`-Verzeichnis und fügen Sie Folgendes hinzu:
+     ```
+     MONGO_URI=your_mongodb_uri
+     ```
+
+### Anwendung starten
+
+1. **Backend-Server starten**:
+
+   ```bash
+   cd backend
+   npm start
+   ```
+
+2. **Frontend-Entwicklungsserver starten**:
+
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+
+3. **Browser öffnen**:
+   - Navigieren Sie zu `http://localhost:5173/`, um die Anwendung anzuzeigen.
+
+## Projektstruktur
+
+### Frontend
+
+- **Components**: Wiederverwendbare UI-Komponenten.
+- **Pages**: Verschiedene Seiten der Anwendung (Home, Login, Register, etc.).
+- **Admin**: Admin-spezifische Komponenten und Seiten.
+- **Utils**: Dienstprogramme und Konstanten.
+- **Assets**: Statische Assets wie Bilder und Icons.
+
+### Backend
+
+- **Routes**: API-Routen für Benutzer- und Ticketmanagement.
+- **Models**: Mongoose-Modelle für MongoDB-Sammlungen.
+- **Controllers**: Logik zum Handling von API-Anfragen.
+- **Middleware**: Middleware-Funktionen für Authentifizierung und Fehlerbehandlung.
+
+## Team
+
+Adem Tozlu - [GitHub](https://github.com/Adem-Tozlu/), [LinkedIn](https://www.linkedin.com/in/adem-tozlu), [Portfolio](http://adem-tozlu.vercel.app/)<br />
+Mohamed Al Dabaan - [GitHub](https://github.com/Mohamed-aldabaan), [LinkedIn](https://www.linkedin.com/in/mohamed-al-dabaan-37a039295/), [Portfolio](https://portfolio-eight-zeta-22.vercel.app/)<br />
+Muhammed Kambur - [GitHub](https://github.com/mkamburdev), [LinkedIn](https://linkedin.com/in/mkambur), [Portfolio](https://mkambur.com/)
