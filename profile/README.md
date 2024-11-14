@@ -1,4 +1,4 @@
-# DCI Fellow Program Dokumentation
+# DCI Fellow Program
 
 ![DCI Fellow Program Banner](https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/Fellow.png?token=GHSAT0AAAAAACZ4FGRGWGDD2W3FECOIQMDIZZV3EOA)
 
