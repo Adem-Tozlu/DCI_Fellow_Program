@@ -1,6 +1,6 @@
 # DCI Fellow Program
 
-![DCI Fellow Program Banner](https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/Fellow.png?token=GHSAT0AAAAAACZ4FGRGWGDD2W3FECOIQMDIZZV3EOA)
+![DCI Fellow Program Banner](./img/Fellow.png)
 
 ## Überblick
 
@@ -9,9 +9,9 @@ Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, u
 ## Screenshots
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/desktop.png?token=GHSAT0AAAAAACZ4FGRHQGXTXJX52QSLH3BSZZV3EZA" alt="Screenshot 1" width="800"/><br>
-  <img src="https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/fellow-tablet.gif?token=GHSAT0AAAAAACZ4FGRGSGFKXHCH5SRLYKLEZZV3FBA" alt="Screenshot 2" width="400"/><br>
-  <img src="https://raw.githubusercontent.com/DCI-Fellow-Program/DCI-Fellow-Program/main/frontend/public/images/fellow-mobile.gif?token=GHSAT0AAAAAACZ4FGRH6XLI4RV6EB6SNJUEZZV3FGQ" alt="Screenshot 3" width="300"/>
+  <img src="./img/desktop.png" alt="Screenshot 1" width="800"/><br>
+  <img src="./img/fellow-tablet.gif" alt="Screenshot 2" width="400"/><br>
+  <img src="./img/fellow-mobile.gif" alt="Screenshot 3" width="300"/>
 </div>
 
 ## Funktionen
