@@ -1,17 +1,17 @@
-# DCI Fellow Program
-
 ![DCI Fellow Program Banner](./img/Fellow.png)
 
 ## Überblick
 
 Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, um die Aktivitäten des Digital Career Institute zu verwalten und zu erleichtern. Dieses Projekt nutzt einen modernen Technologie-Stack, einschließlich eines React-Frontends mit Vite und Tailwind CSS sowie eines Express-Backends mit MongoDB. Die Anwendung unterstützt die Benutzerauthentifizierung, das Benutzermanagement, das Ticketmanagement und bietet ein responsives Design, das für verschiedene Geräte geeignet ist.
 
+![DCI Fellow Program Banner](./img/performance.png)
+
+
 ## Screenshots
 
 <div align="center">
   <img src="./img/desktop.png" alt="Screenshot 1" width="800"/><br>
-  <img src="./img/fellow-tablet.gif" alt="Screenshot 2" width="400"/><br>
-  <img src="./img/fellow-mobile.gif" alt="Screenshot 3" width="300"/>
+  <img src="./img/fellow.gif" alt="Screenshot 1" width="800"/><br>
 </div>
 
 ## Funktionen
@@ -63,23 +63,6 @@ Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, u
 - **MongoDB**: Eine NoSQL-Datenbank zum Speichern von Anwendungsdaten.
 - **Mongoose**: Eine ODM (Object Data Modeling) Bibliothek für MongoDB und Node.js.
 - **JWT**: Für sichere Authentifizierung.
-
-## Projektstruktur
-
-### Frontend
-
-- **Components**: Wiederverwendbare UI-Komponenten.
-- **Pages**: Verschiedene Seiten der Anwendung (Home, Login, Register, etc.).
-- **Admin**: Admin-spezifische Komponenten und Seiten.
-- **Utils**: Dienstprogramme und Konstanten.
-- **Assets**: Statische Assets wie Bilder und Icons.
-
-### Backend
-
-- **Routes**: API-Routen für Benutzer- und Ticketmanagement.
-- **Models**: Mongoose-Modelle für MongoDB-Sammlungen.
-- **Controllers**: Logik zum Handling von API-Anfragen.
-- **Middleware**: Middleware-Funktionen für Authentifizierung und Fehlerbehandlung.
 
 ## Team
 
