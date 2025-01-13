@@ -2,7 +2,7 @@
 
 ## Überblick
 
-Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, um die Aktivitäten des Digital Career Institute zu verwalten und zu erleichtern. Dieses Projekt nutzt einen modernen Technologie-Stack, einschließlich eines React-Frontends mit Vite und Tailwind CSS sowie eines Express-Backends mit MongoDB. Die Anwendung unterstützt die Benutzerauthentifizierung, das Benutzermanagement, das Ticketmanagement und bietet ein responsives Design, das für verschiedene Geräte geeignet ist.
+The DCI Fellow Program is a comprehensive web application designed to manage and facilitate the activities of the Digital Career Institute. This project leverages a modern tech stack, including a React frontend with Vite and Tailwind CSS, and an Express backend with MongoDB. The application supports user authentication, user management, ticket management, and provides a responsive design suitable for various devices.
 
 ![DCI Fellow Program Banner](./img/performance.png)
 
@@ -14,55 +14,72 @@ Das DCI Fellow Program ist eine umfassende Webanwendung, die entwickelt wurde, u
   <img src="./img/fellow.gif" alt="Screenshot 1" width="800"/><br>
 </div>
 
-## Funktionen
+## Features
 
-### Ticketmanagement
+### User Management
 
-- **Tickets erstellen**: Benutzer können neue Tickets erstellen, indem sie den Titel, die Sprache, den Kurs und die Beschreibung angeben.
-- **Tickets anzeigen**: Benutzer können Details einzelner Tickets anzeigen.
-- **Tickets filtern und suchen**: Benutzer können Tickets nach Sprache, Kurs und Position filtern und nach Schlüsselwörtern suchen.
-- **Paginierung**: Tickets werden zur besseren Benutzererfahrung paginiert.
-- **Tickets löschen**: Administratoren können einzelne oder mehrere Tickets löschen.
+- **Registration and Login**: Users can register and log in to the application.
+- **Profile Management**: Users can view and edit their profiles.
+- **User Search and Filter**: Users can search and filter other users by email.
 
-### Benutzermanagement
+### Ticket Management
 
-- **CRUD-Operationen**: Administratoren können Benutzerkonten erstellen, lesen, aktualisieren und löschen.
-- **Profilverwaltung**: Benutzer können ihre Profile anzeigen und bearbeiten.
-- **Suchen und Filtern**: Benutzer können andere Benutzer nach E-Mail suchen und filtern.
+- **Create Tickets**: Users can create new tickets specifying the title, language, course, and description.
+- **View Tickets**: Users can view details of individual tickets.
+- **Filter and Search Tickets**: Users can filter tickets by language, course, and position, and search by keywords.
+- **Delete Tickets**: Administrators can delete single or multiple tickets.
 
-### Benutzerauthentifizierung und -autorisierung
+### Internationalization (i18n)
 
-- **Login und Registrierung**: Benutzer können sich registrieren und in die Anwendung einloggen.
-- **JWT-Authentifizierung**: Sichere Authentifizierung mit JSON Web Tokens (JWT).
-- **Rollenbasierte Zugriffskontrolle**: Verschiedene Zugriffsebenen für reguläre Benutzer und Administratoren.
+- **Language Support**: The application supports multiple languages and the user interface can be translated into different languages.
 
-### Dashboard
+### Routing
 
-- **Admin-Dashboard**: Bietet einen Überblick über Tickets und Benutzeraktivitäten.
-- **Sortieren und Filtern**: Tickets können nach Datum sortiert und nach verschiedenen Kriterien gefiltert werden.
+- **React Router**: Enables navigation between different pages.
 
-### Responsives Design
+### State Management
 
-- **Mobilfreundlich**: Die Anwendung ist so gestaltet, dass sie responsiv ist und gut auf mobilen Geräten funktioniert.
-- **Dynamische Layouts**: Layouts passen sich basierend auf der Bildschirmgröße an, um eine optimale Benutzererfahrung zu bieten.
+- **Context API**: Manages global states such as user information.
 
-## Verwendete Technologien
+### Announcements
+
+- **Create and Update Announcements**: Administrators can create and update announcements.
+- **View Announcements**: Users can view announcements.
+
+### Responsive Design
+
+- **Mobile-Friendly**: The application is designed to be responsive and works well on mobile devices.
+- **Dynamic Layouts**: Layouts adjust based on screen size to provide an optimal user experience.
+
+### Admin Dashboard
+
+- **Overview**: Administrators can get an overview of tickets and user activities.
+- **Sort and Filter**: Tickets can be sorted by date and filtered by various criteria.
+
+## Technologies Used
 
 ### Frontend
 
-- **React**: Eine JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen.
-- **Vite**: Ein Build-Tool, das eine schnelle Entwicklungsumgebung bietet.
-- **Tailwind CSS**: Ein Utility-First CSS-Framework für die schnelle UI-Entwicklung.
-- **React Router**: Zum Handling von Routen in der Anwendung.
-- **Redux**: Für das Zustandsmanagement.
-- **React Icons**: Zum Einbinden von Icons in die Anwendung.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A build tool that provides a fast development environment.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Router**: For handling routing in the application.
+- **Redux**: For state management.
+- **React Icons**: For including icons in the application.
 
 ### Backend
 
-- **Express**: Ein Webanwendungs-Framework für Node.js.
-- **MongoDB**: Eine NoSQL-Datenbank zum Speichern von Anwendungsdaten.
-- **Mongoose**: Eine ODM (Object Data Modeling) Bibliothek für MongoDB und Node.js.
-- **JWT**: Für sichere Authentifizierung.
+- **Express**: A web application framework for Node.js.
+- **MongoDB**: A NoSQL database for storing application data.
+- **Mongoose**: An ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **JWT**: For secure authentication.
+
+### Other Tools and Technologies
+
+- **i18next**: A library for internationalization (i18n).
+- **PM2**: A process manager for managing and monitoring Node.js applications.
+- **GitHub Webhooks**: Used to trigger automatic updates.
+- **Hetzner VPS**: A virtual private server used for application deployment.
 
 ## Team
 
