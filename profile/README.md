@@ -1,6 +1,16 @@
 ![DCI Fellow Program Banner](./img/Fellow.png)
 
-## Überblick
+<div id="readme">
+<p align="center">
+    <a href="https://fellow.digitalcareerinstitute.org/">View Demo</a>
+    |
+    <a href="https://www.figma.com/design/Xw3g55ngvVHJpwWP0i2klk/">Figma Design</a>
+    |
+    <a href="https://pagespeed.web.dev/analysis/https-fellow-digitalcareerinstitute-org/qws35zweam?form_factor=desktop">PageSpeed Score</a>
+  </p>
+</div>
+
+## Overview
 
 The DCI Fellow Program is a comprehensive web application designed to manage and facilitate the activities of the Digital Career Institute. This project leverages a modern tech stack, including a React frontend with Vite and Tailwind CSS, and an Express backend with MongoDB. The application supports user authentication, user management, ticket management, and provides a responsive design suitable for various devices.
 
@@ -83,6 +93,19 @@ The DCI Fellow Program is a comprehensive web application designed to manage and
 
 ## Team
 
-Adem Tozlu - [GitHub](https://github.com/Adem-Tozlu/), [LinkedIn](https://www.linkedin.com/in/adem-tozlu), [Portfolio](http://adem-tozlu.vercel.app/)<br />
-Mohamed Al Dabaan - [GitHub](https://github.com/Mohamed-aldabaan), [LinkedIn](https://www.linkedin.com/in/mohamed-al-dabaan-37a039295/), [Portfolio](https://portfolio-eight-zeta-22.vercel.app/)<br />
-Muhammed Kambur - [GitHub](https://github.com/mkamburdev), [LinkedIn](https://linkedin.com/in/mkambur), [Portfolio](https://mkambur.com/)
+<table>
+  <tr>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/e?email=Adem-Tozlu@hotmail.de" width="80px;" alt=""/><br /><sub><b>Adem Tozlu</b></sub><br />
+    <a href="https://github.com/Adem-Tozlu/"><sub>GitHub</sub></a><br />
+    <a href="https://www.linkedin.com/in/adem-tozlu"><sub>LinkedIn</sub></a><br />
+    <a href="http://adem-tozlu.vercel.app/"><sub>Portfolio</sub></a></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/e?email=mohamed.aldabaan@dci-student.org" width="80px;" alt=""/><br /><sub><b>Mohamed Al Dabaan</b></sub><br />
+    <a href="https://github.com/Mohamed-aldabaan"><sub>GitHub</sub></a><br />
+    <a href="https://www.linkedin.com/in/mohamed-al-dabaan-37a039295/"><sub>LinkedIn</sub></a><br />
+    <a href="https://portfolio-eight-zeta-22.vercel.app/"><sub>Portfolio</sub></a></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/e?email=info@mkambur.com" width="80px;" alt=""/><br /><sub><b>Muhammed Kambur</b></sub><br />
+    <a href="https://github.com/mkamburdev"><sub>GitHub</sub></a><br />
+    <a href="https://linkedin.com/in/mkambur"><sub>LinkedIn</sub></a><br />
+    <a href="https://mkambur.com/"><sub>Portfolio</sub></a></td>
+  </tr>
+</table>
